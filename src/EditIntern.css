@@ -1,0 +1,93 @@
+.backToList, .editForm{
+    font-family: 'Roboto';
+}
+
+.backToListIcon, .backToListLink{
+    flex: none;
+}
+
+.backToList{
+    display: block; 
+    margin: 52px 936px 60px 390px;
+    padding: 0 80px 0 0;
+}
+
+.backToListIcon{
+    width: 16px;
+    height: 16px;
+    left: 16.67%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+
+.backToListLink{
+    order: 1;
+    flex-grow: 0;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+    margin: 0px 8px;
+    text-decoration: none;
+}
+
+.editForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F7F7F7;
+    margin: 0 392px 249px  392px;
+    padding: 0px 80px 40px 80px;
+}
+
+.headerEditForm{
+    font-size: 40px;
+    font-weight: 500;   
+    margin: 40px 0px;
+    padding: 40px 0 0 0;
+}
+
+.nameLabel, .emailLabel, .startLabel, .endLabel{
+    font-weight: 300;
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.nameLabel{
+    flex: none;
+    width: 496px;
+}
+
+.emailLabel{
+    width: 496px;
+}
+
+.nameInputBox{
+    padding: 12px 56px 12px 16px;
+}
+
+.startInputBox, .endInputBox {
+    width: 120px;
+}
+
+.startInputBox {
+    margin: 0 5px 80px 0;
+}
+
+.endInputBox {
+    margin: 0 0 80px 5px;
+}
+
+.buttonSubmit {
+    font-family: 'Roboto';
+    display: flex;
+    padding: 12px 40px;
+    flex: none;
+    margin: 40px 0px;
+    width: 224px;
+}
+
+.error {
+    color: #A3270C;
+    font-size: 16px;
+}

@@ -1,0 +1,61 @@
+.participantsList{
+    font-family: 'Roboto';
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    margin: 136px 392px 105px;
+    padding: 40px 80px 80px;
+}
+
+.header{
+    font-weight: black;
+    font-size: 40px;
+}
+
+.participants{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    position: static;
+    width: 496px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+
+.participants:nth-child(even){
+    background-color: #EDEDED;
+}
+
+.participants:nth-child(odd){
+    background-color: #F2F2F2;
+}
+
+.icon{
+    display: block 
+}
+
+.editIcon{
+    width: 24px;
+    height: 24px;
+    flex: none;
+    left: 8.18%;
+    right: 8.33%;
+    top: 7.75%;
+    bottom: 12.5%;
+}
+
+.editLink{
+    font-weight: Black;
+    font-size: 16px;
+    margin: 0px 8px;
+    flex: none;
+    order: 1;
+    text-decoration: none;
+    text-decoration-color: black;
+}

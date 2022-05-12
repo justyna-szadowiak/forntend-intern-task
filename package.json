@@ -1,21 +1,35 @@
 {
-  "name": "front-end-intern-task",
+  "name": "front-end-internship",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@semantic-ui-react/css-patch": "^1.0.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-hook-form": "^7.30.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-semantic-ui-datepickers": "^2.17.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.2",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "resolutions": {
+    "semantic-ui-react/react": "^18.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "json-server --watch db.json --port 3001",
+    "postinstall": "semantic-ui-css-patch"
   },
   "eslintConfig": {
     "extends": [

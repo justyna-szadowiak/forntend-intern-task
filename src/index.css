@@ -1,13 +1,40 @@
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./assets/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: local('Roboto'), url(./assets/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: local('Roboto'), url(./assets/Roboto-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: local('Roboto'), url(./assets/Roboto-Medium.ttf) format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Roboto';
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin: 40px;
 }
